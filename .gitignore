@@ -2,57 +2,28 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
 # Virtual Environment
 venv/
-ENV/
+env/
 .env
 .venv
-env/
-env.bak/
-venv.bak/
 
-# IDE specific files
-.idea/
+# IDE settings
 .vscode/
+.idea/
 *.swp
 *.swo
-.DS_Store
-.project
-.pydevproject
-.settings/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Logs and databases
-*.log
-*.sqlite
-*.db
-
-# System Files
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
+Thumbs.db
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-Thumbs.db 
+
+# Project specific
+*.log
+output/
+temp/ 
